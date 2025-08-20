@@ -1,0 +1,25 @@
+{
+  "name": "ternion-waitlist",
+  "version": "1.0.0",
+  "description": "Waitlist for Ternion",
+  "license": "ISC",
+  "author": "Okata Miracle Ikechukwu",
+  "type": "commonjs",
+  "main": "netlify/functions/submit-waitlist.js",
+  "scripts": {
+    "start": "netlify dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./style/styles.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./style/styles.css --minify"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.55.0",
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11",
+    "tailwindcss-animated": "^2.0.0"
+  },
+  "devDependencies": {
+    "@iconify/tailwind4": "^1.0.6",
+    "tailwind-scrollbar": "^4.0.2"
+  }
+}
